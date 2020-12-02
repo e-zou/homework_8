@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer.js";
 import Home from "./components/Home.js";
 import Resume from "./components/Resume.js";
+import Thing from "./components/Thing.js";
 
 // Routing
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
