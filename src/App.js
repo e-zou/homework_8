@@ -23,8 +23,8 @@ function App() {
       <Router>
       <Navigation/>
         <Switch>
-          <Route path="/" exact component={() => <Home/>} />
-          <Route path="/" exact component={() => <Resume/>} />
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={() => <Home/>} />
+          <Route path={process.env.PUBLIC_URL + '/resume'} exact component={() => <Resume/>} />
         </Switch>
       <Footer/>
       </Router>
