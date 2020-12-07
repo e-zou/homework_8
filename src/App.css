@@ -1,5 +1,118 @@
-.flag {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Font Style */
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.h1-splash {
+  font-size: 120px;
+}
+
+.h1-section-header {
+  font-size: 58px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h2-splash {
+  font-weight: 400;
+  color: #858585;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 125px;
+}
+
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  border-bottom: 1px solid #000000;
+  vertical-align: middle;
+  margin-right: 3px;
+  text-transform: uppercase;
+
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  /* position: relative; */
+  margin-bottom: 30px;
+}
+
+.highlight-box {
+  width: fit-content;
+  position: relative;
+}
+.highlight {
+  z-index: -1;
   width: 100%;
-  border: 1px hotpink;
-  height: 800px;
+  position: absolute;
+  /* height: 10px; */
+  border-bottom: solid #E7C82A 10px;
+  bottom: -2px;
+  opacity: 50%;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 150.2%;
+  font-size: 22px;
+}
+
+/* Flex Classes */
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-d-col {
+  flex-direction: column;
+}
+
+.flex-d-row {
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+/* Sections */
+section {
+  width: 80%;
+  /* border: 1px solid hotpink; */
+  padding-top: 215px;
+  max-width: 1140px;
 }

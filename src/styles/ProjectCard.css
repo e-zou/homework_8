@@ -1,0 +1,44 @@
+/* Tags */
+
+.project-card {
+    width: 49%;
+    /* border: 1px solid blue; */
+    margin-bottom: 50px;
+}
+
+.project-tag-wrapper {
+    width: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.tag {
+    background-color: #DFDFDF;
+    margin-right: 10px;
+    height: 40px;
+    /* width: 200px;
+    max-width: 200px; */
+    /* padding top, right, bottom, left */
+    padding: 0px, 15px, 0px, 5px;
+    width: fit-content;
+    /* border: 1px blue solid; */
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.h5-tag {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    width: fit-content;
+    padding: 15px;
+    /* border: 1px hotpink solid; */
+}
+
+.project-card:nth-child(even) {
+    margin-top: 180px;
+}

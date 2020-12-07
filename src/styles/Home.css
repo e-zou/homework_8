@@ -1,0 +1,16 @@
+/* Home Splash Screen */
+.flag {
+    width: 100%;
+    border: 1px hotpink;
+    height: 800px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+.flag-title {
+    position: absolute;
+    /* top: 50%; */
+
+}

@@ -1,12 +1,17 @@
 import logo from './logo.svg';
+
+// Styling
 import './App.css';
 
-// Components
+// Components - Pages
 import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer.js";
 import Home from "./components/Home.js";
 import Resume from "./components/Resume.js";
-import Thing from "./components/Thing.js";
+import SplashObject from "./components/SplashObject.js";
+
+// Components - Objects
+import ProjectCard from "./components/ProjectCard.js";
 
 // Routing
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
