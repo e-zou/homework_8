@@ -1,15 +1,26 @@
+// Styling
+import '../styles/Footer.css';
+
+// Social Media
+
+import linkedin from '../images/Linkedin.png';
+import github from '../images/GitHub.png';
+import instagram from '../images/Instagram.png';
+
 // TO-DO: Replace text with image of icons
 function Footer() {
     return (
-        <div class="footer">
-            <div class="footer-wrapper">
-                <h4><a href="emily.zou@gmail.com">emily.zou@gmail.com</a></h4>
+        <div class="footer flex center">
+            <section class="footer-wrapper">
+                <a href="mailto:emily.zou@gmail.com">
+                    <h4 class="email">emily.zou@gmail.com</h4>
+                </a>
                 <div class="social-media-icons">
-                    <p>linkedin</p>
-                    <p>github</p>
-                    <p>instagram</p>
+                    <a href="https://www.linkedin.com/in/emily-zou/"><img class="linkedin" src={linkedin} alt="linkedin icon"></img></a>
+                    <a href="https://github.com/e-zou"><img class="github" src={github} alt="github icon"></img></a>
+                    <a href="https://www.instagram.com/emitheegg/"><img class="insta" src={instagram} alt="instagram icon"></img></a>
                 </div>
-            </div>
+            </section>
         </div>
     );
 

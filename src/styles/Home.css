@@ -4,6 +4,8 @@
     border: 1px hotpink;
     height: 800px;
     position: relative;
+    padding-top: 0px;
+    text-align: center;
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -14,3 +16,4 @@
     /* top: 50%; */
 
 }
+

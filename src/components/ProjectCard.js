@@ -15,7 +15,7 @@ function ProjectCard({ imgLink, title, tags}) {
                         </div>
                     ))}
                 </div>
-                <a class="link"><h4 class="highlight-box"><span class="highlight"></span>View Case Study</h4></a>
+                <a class="link" href="#"><h4 class="highlight-box"><span class="highlight"></span>View case study</h4></a>
             </div>
         </div>
     );

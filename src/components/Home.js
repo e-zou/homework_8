@@ -12,8 +12,9 @@ import '../styles/Home.css';
 // project images
 import p1 from '../images/project-kst.png';
 import p2 from '../images/project-hack.png';
-import p3 from '../images/project-dashboard.png';
-import p4 from '../images/project-muddy-paws.png';
+import p3 from '../images/project-muddy-paws.png';
+import p4 from '../images/project-dashboard.png';
+
 
 // Home Page items
 function Home({ projectcard }) {
@@ -37,7 +38,7 @@ function Home({ projectcard }) {
                 </Canvas>
                
             </section>
-            <section class="projects">
+            <section class="projects" id="#projects">
                 <h3>
                     Projects
                 </h3>

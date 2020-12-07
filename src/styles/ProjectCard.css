@@ -32,7 +32,7 @@
 
 .h5-tag {
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
     width: fit-content;
     padding: 15px;
@@ -41,4 +41,17 @@
 
 .project-card:nth-child(even) {
     margin-top: 180px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: #7A9872;
+}
+
+.link::after:hover {
+    background-color: #7A9872;
 }
