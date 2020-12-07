@@ -37,7 +37,7 @@
     position: relative;
 }
 
-.nav-item:hover:before {
+.nav-item:hover::before {
     content:"";
     position: absolute;
     color: #7A9872;

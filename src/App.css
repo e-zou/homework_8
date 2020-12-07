@@ -42,7 +42,7 @@ h3 {
   padding-bottom: 125px;
 }
 
-h3:before {
+h3::before {
   content: "";
   display: inline-block;
   width: 100px;
