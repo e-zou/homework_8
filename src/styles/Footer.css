@@ -30,7 +30,7 @@ a {
     width: fit-content;
 }
 
-.email::after {
+.email:after {
     content: "";
     position: absolute;
     width: 102%;
