@@ -72,6 +72,10 @@ h4 {
   height: 10px;
   border-bottom: solid #E7C82A 10px;
   bottom: -2px;
+  /* opacity: 50%; */
+}
+
+.highlight {
   opacity: 50%;
 }
 
