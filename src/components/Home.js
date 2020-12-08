@@ -20,7 +20,7 @@ import p4 from '../images/project-dashboard.png';
 function Home({ projectcard }) {
     return (
         <div class="home flex flex-d-col center">
-            <section class="flag flex center">
+            <div class="flag flex center">
                 <div class="flag-title flex center flex-d-col">
                     <h1 class="h1-splash">
                         Emily Zou
@@ -37,7 +37,7 @@ function Home({ projectcard }) {
                     <SplashObject position={[0, 0, 0]} />
                 </Canvas>
                
-            </section>
+            </div>
             <section class="projects" id="#projects">
                 <h3>
                     Projects
@@ -46,7 +46,8 @@ function Home({ projectcard }) {
                     <ProjectCard 
                         imgLink={p1}
                         title="Kelly Strayhorn"
-                        tags={['user research', 'project management']} 
+                        tags={['user research', 'project management']}
+                        link={process.env.PUBLIC_URL + '/project-kst'}
                     />
                     <ProjectCard 
                         class="hi"
