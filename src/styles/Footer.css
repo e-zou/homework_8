@@ -36,7 +36,7 @@ a {
     width: 102%;
     height: 10px;
     border-bottom: solid #E7C82A 20px;
-    opacity: 50%;
+    opacity: .5;
     bottom: 0px;
     left: 0px;
 }
