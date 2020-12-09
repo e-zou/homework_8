@@ -21,7 +21,7 @@
     
 }
 .overview-info {
-    border: solid blue 1px;
+    /* border: solid blue 1px; */
     max-width: 1140px;
     align-self: center;
 }
