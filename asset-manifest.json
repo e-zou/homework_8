@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/homework_8/static/css/main.d250e3da.chunk.css",
-    "main.js": "/homework_8/static/js/main.086e1497.chunk.js",
-    "main.js.map": "/homework_8/static/js/main.086e1497.chunk.js.map",
-    "runtime-main.js": "/homework_8/static/js/runtime-main.29cc194e.js",
-    "runtime-main.js.map": "/homework_8/static/js/runtime-main.29cc194e.js.map",
-    "static/js/2.b3003d86.chunk.js": "/homework_8/static/js/2.b3003d86.chunk.js",
-    "static/js/2.b3003d86.chunk.js.map": "/homework_8/static/js/2.b3003d86.chunk.js.map",
-    "static/js/3.ff66d900.chunk.js": "/homework_8/static/js/3.ff66d900.chunk.js",
-    "static/js/3.ff66d900.chunk.js.map": "/homework_8/static/js/3.ff66d900.chunk.js.map",
+    "main.css": "/homework_8/static/css/main.da3fc00e.chunk.css",
+    "main.js": "/homework_8/static/js/main.178ed011.chunk.js",
+    "main.js.map": "/homework_8/static/js/main.178ed011.chunk.js.map",
+    "runtime-main.js": "/homework_8/static/js/runtime-main.d9262a44.js",
+    "runtime-main.js.map": "/homework_8/static/js/runtime-main.d9262a44.js.map",
+    "static/js/2.58ddec6b.chunk.js": "/homework_8/static/js/2.58ddec6b.chunk.js",
+    "static/js/2.58ddec6b.chunk.js.map": "/homework_8/static/js/2.58ddec6b.chunk.js.map",
+    "static/js/3.c3cfcb76.chunk.js": "/homework_8/static/js/3.c3cfcb76.chunk.js",
+    "static/js/3.c3cfcb76.chunk.js.map": "/homework_8/static/js/3.c3cfcb76.chunk.js.map",
     "index.html": "/homework_8/index.html",
-    "static/css/main.d250e3da.chunk.css.map": "/homework_8/static/css/main.d250e3da.chunk.css.map",
-    "static/js/2.b3003d86.chunk.js.LICENSE.txt": "/homework_8/static/js/2.b3003d86.chunk.js.LICENSE.txt",
+    "static/css/main.da3fc00e.chunk.css.map": "/homework_8/static/css/main.da3fc00e.chunk.css.map",
+    "static/js/2.58ddec6b.chunk.js.LICENSE.txt": "/homework_8/static/js/2.58ddec6b.chunk.js.LICENSE.txt",
+    "static/media/1.b2fdb362.png": "/homework_8/static/media/1.b2fdb362.png",
+    "static/media/2.b7bea440.png": "/homework_8/static/media/2.b7bea440.png",
+    "static/media/3.629fe7c5.png": "/homework_8/static/media/3.629fe7c5.png",
+    "static/media/4.521e855b.png": "/homework_8/static/media/4.521e855b.png",
+    "static/media/5.0e8e61a5.png": "/homework_8/static/media/5.0e8e61a5.png",
+    "static/media/6.44128465.png": "/homework_8/static/media/6.44128465.png",
+    "static/media/Emily_Zou_Resume.41eac98f.pdf": "/homework_8/static/media/Emily_Zou_Resume.41eac98f.pdf",
     "static/media/logo.6ce24c58.svg": "/homework_8/static/media/logo.6ce24c58.svg",
     "static/media/project-dashboard.b3217577.png": "/homework_8/static/media/project-dashboard.b3217577.png",
     "static/media/project-hack.6aab30b3.png": "/homework_8/static/media/project-hack.6aab30b3.png",
     "static/media/project-kst.29eb8441.png": "/homework_8/static/media/project-kst.29eb8441.png",
-    "static/media/project-muddy-paws.dd396569.png": "/homework_8/static/media/project-muddy-paws.dd396569.png"
+    "static/media/project-muddy-paws.dd396569.png": "/homework_8/static/media/project-muddy-paws.dd396569.png",
+    "static/media/ProjectKST.css": "/homework_8/static/media/splash.d5b0f152.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.29cc194e.js",
-    "static/js/2.b3003d86.chunk.js",
-    "static/css/main.d250e3da.chunk.css",
-    "static/js/main.086e1497.chunk.js"
+    "static/js/runtime-main.d9262a44.js",
+    "static/js/2.58ddec6b.chunk.js",
+    "static/css/main.da3fc00e.chunk.css",
+    "static/js/main.178ed011.chunk.js"
   ]
 }
