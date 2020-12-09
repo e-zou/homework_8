@@ -12,6 +12,7 @@ import Resume from "./components/Resume.js";
 
 // Project Pages
 import ProjectKST from "./components/ProjectKST.js";
+import ProjectHack from "./components/ProjectHack.js";
 
 // Components - Objects
 // import ProjectCard from "./components/ProjectCard.js";
@@ -29,6 +30,7 @@ function App() {
           <Route path={process.env.PUBLIC_URL + '/'} exact component={() => <Home/>} />
           <Route path={process.env.PUBLIC_URL + '/resume'} exact component={() => <Resume/>} />
           <Route path={process.env.PUBLIC_URL + '/project-kst'} exact component={() => <ProjectKST/>} />
+          <Route path={process.env.PUBLIC_URL + '/project-hack'} exact component={() => <ProjectHack/>} />
         </Switch>
       <Footer/>
       </Router>

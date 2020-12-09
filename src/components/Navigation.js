@@ -14,7 +14,7 @@ function Navigation() {
                 <div class="logo menu-item center-vertical"><Link to="/homework_8"><img src={logo} alt="logo" /></Link></div>
                 <div class="menu flex flex-d-row center-vertical space-between">
                     <a class="nav-item" href="#projects"><p>Projects</p></a>
-                    <Link class="nav-item resume" to="/resume"><p>Resume</p></Link>
+                    <Link class="nav-item resume" to={process.env.PUBLIC_URL + '/resume'}><p>Resume</p></Link>
                     <a class="nav-item" href="#"><p>Contact</p></a>
                 </div>
             </section>

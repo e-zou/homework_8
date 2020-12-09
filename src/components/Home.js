@@ -54,6 +54,7 @@ function Home({ projectcard }) {
                         imgLink={p2}
                         title="Hack to the Future"
                         tags={['leadership', 'product thinking', 'visual design']} 
+                        link={process.env.PUBLIC_URL + '/project-hack'}
                     />
                 </div>
                 <div class="projects-row flex flex-d-row space-between">
