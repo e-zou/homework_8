@@ -15,11 +15,10 @@ import p2 from '../images/project-hack.png';
 import p3 from '../images/project-muddy-paws.png';
 import p4 from '../images/project-dashboard.png';
 
-
 // Home Page items
 function Home({ projectcard }) {
     return (
-        <div class="home flex flex-d-col center">
+        <div class="home first flex flex-d-col center">
             <div class="flag flex center">
                 <div class="flag-title flex center flex-d-col">
                     <h1 class="h1-splash">

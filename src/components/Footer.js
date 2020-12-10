@@ -11,7 +11,7 @@ import instagram from '../images/Instagram.png';
 function Footer() {
     return (
         <div class="footer flex center">
-            <section class="footer-wrapper">
+            <section class="footer-wrapper" id="contact">
                 <a href="mailto:emily.zou@gmail.com">
                     <h4 class="email">emily.zou@gmail.com</h4>
                 </a>

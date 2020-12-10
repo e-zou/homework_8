@@ -1,5 +1,5 @@
 
-.splash {
+.project-kst-wrapper.splash {
     height: 750px;
     width: 100%;
     background-image: url('../images/kst/splash.png');
@@ -13,13 +13,6 @@
 }
 
 
-
-.splash {
-    height: 750px;
-    width: 100%;
-    background-image: url('../images/hack/splash.png');
-    
-}
 .overview-info {
     /* border: solid blue 1px; */
     max-width: 1140px;
@@ -97,6 +90,7 @@
     height: 860px;
     color: white;
     margin-bottom: 0;
+    background-size: cover;
     /* background-image: url('../images/hack/splash.png'); */
   
 }
@@ -105,3 +99,5 @@
     content: "";
     border-bottom: 1px solid #FFFFFF;
 }
+
+  

@@ -96,6 +96,12 @@ p {
   font-size: 50px;
 }
 
+.overview-title {
+  /* border: 1px hotpink solid; */
+  max-width: 1140px;
+  width: 100%;
+}
+
 /* Flex Classes */
 .flex {
   display: flex;
@@ -125,6 +131,10 @@ p {
 .center-vertical {
   align-items: center;
   align-content: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
 }
 
 .flex-wrap {

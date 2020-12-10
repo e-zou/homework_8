@@ -13,9 +13,10 @@ import p6 from '../images/kst/6.png';
 // KST Project Page
 function ProjectKST() {
     return (
-        <div class="project-kst flex flex-d-col center">
+        <div class="first project-kst flex flex-d-col center">
+            {/* Splash */}
             <div class="project-kst-wrapper splash flex center">
-                <div class="splash-wrapper flex flex-d-col">
+                <div class="splash-wrapper flex flex-d-col center">
                     <h3 class="overview-title">
                         Overview
                     </h3>
@@ -58,6 +59,7 @@ function ProjectKST() {
                     </div>
                 </div>
             </div>
+            {/* Research */}
             <section>
                 <h3>
                     Research
@@ -74,8 +76,8 @@ function ProjectKST() {
                     </div>
                 </div>
             </section>
-
-            <section class="section-gray flex flex-row space-between">
+            {/* Our Focus */}
+            <section class="flex flex-row space-between">
                 <div class="section-text flex flex-d-col">
                     <h1>
                         Our Focus
@@ -86,7 +88,7 @@ function ProjectKST() {
                 </div>
                 <img class="section-img" src={p2} alt="kst promotional dance"></img>
             </section>
-
+            {/* User Research */}
             <div class="full-bleed">
                 <div class="user-research flex flex-d-row">
                     <img class="section-img" src={p3} alt="affinity diagram"></img>
@@ -106,7 +108,7 @@ function ProjectKST() {
                     <img src={p6} alt="person holding up phone from contextual inquiry"></img>
                 </div>
             </div>
-
+            {/* Insights */}
             <section>
                 <h3>Insights</h3>
                 <div class="text-cards-wrapper flex flex-d-row flex-wrap space-between">
@@ -159,10 +161,10 @@ function ProjectKST() {
                     </div>
                 </div>
             </section>
-
+            {/* Reflection */}
             <div class="full-bleed dark flex center">
                 <div class="dark-section-wrapper">
-                    <h3>Insights</h3>
+                    <h3>Next Steps</h3>
                     <div class="dark-text-wrapper">
                         <h1>
                             Designing a Solution
