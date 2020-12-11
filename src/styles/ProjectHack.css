@@ -70,20 +70,18 @@
         flex-wrap: wrap;
     }
 
-    /* not showing up */
-
     .info-detail {
         width: 49%;
         margin-bottom: 10px;
     }
 
-    .gallery-picuture-row {
+    .gallery-picture-row {
         display: flex;
         flex-direction: column;
-        border: 1px hotpink
+        border: 1px hotpink;
     }
 
-    .gallery-picuture-row > img {
+    .gallery-picture-row > img {
         width: 100%;
     }
 }
