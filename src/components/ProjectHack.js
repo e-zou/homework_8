@@ -87,7 +87,9 @@ function ProjectHack() {
                         </p>
                         
                     </div>
-                    <img src={p1} alt="people working on laptops"></img>
+                    <div class="img-wrapper flex center">
+                        <img src={p1} alt="people working on laptops"></img>
+                    </div>
                 </div>
 
                 <div class="box2">

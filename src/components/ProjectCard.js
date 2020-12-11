@@ -8,7 +8,9 @@ import '../styles/ProjectCard.css';
 function ProjectCard({ imgLink, title, tags, link}) {
     return (
         <div class="project-card">
-            <img src={imgLink} class="project-image" alt="project image"></img>
+            <div class="project-image-wrapper">
+                <img src={imgLink} class="project-image" alt="project image"></img>
+            </div>
             <div class="project-info">
                 <h1 class="project-title">{title}</h1>
                 <div class="project-tag-wrapper flex flex-d-row">
