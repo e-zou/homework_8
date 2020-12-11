@@ -9,9 +9,32 @@ import p4 from '../images/kst/4.png';
 import p5 from '../images/kst/5.png';
 import p6 from '../images/kst/6.png';
 
+// Animations
+import React, { useEffect, useRef, useState } from "react";
+import { gsap, Power3 } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger)
+
 
 // KST Project Page
 function ProjectKST() {
+    // Animations
+    useEffect(()=> {
+        // Project Images
+        gsap.from(".section-info", {
+            x: -100,
+            opacity: 0,
+            duration: 3,
+            scrollTrigger: {
+                trigger: ".section-info",
+                once: false,
+                markers: true
+            },
+            ease: Power3.easeOut,
+            delay: 0.4,
+        });
+    })
+
     return (
         <div class="first project-kst flex flex-d-col center">
             {/* Splash */}

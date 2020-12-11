@@ -10,6 +10,8 @@ import Home from "./components/Home.js";
 import Resume from "./components/Resume.js";
 // import SplashObject from "./components/SplashObject.js";
 
+import ScrollToTop from "./functions/ScrollToTop.js";
+
 // Project Pages
 import ProjectKST from "./components/ProjectKST.js";
 import ProjectHack from "./components/ProjectHack.js";
@@ -39,12 +41,14 @@ function App() {
     <div className="App">
       <Router>
       <Navigation/>
-        <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'} exact component={() => <Home/>} />
-          <Route path={process.env.PUBLIC_URL + '/resume'} exact component={() => <Resume/>} />
-          <Route path={process.env.PUBLIC_URL + '/project-kst'} exact component={() => <ProjectKST/>} />
-          <Route path={process.env.PUBLIC_URL + '/project-hack'} exact component={() => <ProjectHack/>} />
-        </Switch>
+      <ScrollToTop>
+          <Switch>
+            <Route path={process.env.PUBLIC_URL + '/'} exact component={() => <Home/>} />
+            <Route path={process.env.PUBLIC_URL + '/resume'} exact component={() => <Resume/>} />
+            <Route path={process.env.PUBLIC_URL + '/project-kst'} exact component={() => <ProjectKST/>} />
+            <Route path={process.env.PUBLIC_URL + '/project-hack'} exact component={() => <ProjectHack/>} />
+          </Switch>
+      </ScrollToTop>
       <Footer/>
       </Router>
     </div>
