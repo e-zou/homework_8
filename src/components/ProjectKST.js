@@ -65,8 +65,10 @@ function ProjectKST() {
                     Research
                 </h3>
                 <div class="section-info flex flex-row space-between">
-                    <img class="section-img" src={p1} alt="kst promotional dance"></img>
-                    <div class="section-text ">
+                    <div class="section-img-wrapper">
+                        <img class="section-img" src={p1} alt="kst promotional dance"></img>
+                    </div>
+                    <div class="section-text">
                         <h1 class="flex center-vertical">
                             Background
                         </h1>
@@ -77,7 +79,7 @@ function ProjectKST() {
                 </div>
             </section>
             {/* Our Focus */}
-            <section class="flex flex-row space-between">
+            <section class="section-info flex flex-row space-between">
                 <div class="section-text flex flex-d-col">
                     <h1>
                         Our Focus
@@ -86,7 +88,9 @@ function ProjectKST() {
                         After conducting some preliminary findings and looking at competitor websites, we narrowed down the scope of our project so that we find ways to increase participation. In order to keep the theater thriving, we must find a way for the theater to work with the established community but also to expand to working with new members. 
                     </p>
                 </div>
-                <img class="section-img" src={p2} alt="kst promotional dance"></img>
+                <div class="section-img-wrapper">
+                    <img class="section-img" src={p2} alt="kst promotional dance"></img>
+                </div>
             </section>
             {/* User Research */}
             <div class="full-bleed">
