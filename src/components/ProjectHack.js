@@ -14,8 +14,36 @@ import p5 from '../images/hack/5.png';
 import p6 from '../images/hack/6.png';
 import p7 from '../images/hack/7.png';
 
+// Animations
+import React, { useEffect, useRef, useState } from "react";
+import { gsap, Power3 } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger)
+
+
 // Hack to the Future Project Page
 function ProjectHack() {
+    // Animations
+    useEffect(()=> {
+        var sections = document.querySelectorAll(".section-info");
+
+        // Project Images
+        sections.forEach((section, index) => {
+            gsap.from(section, {
+                x: -100,
+                opacity: 0,
+                duration: 3,
+                scrollTrigger: {
+                    trigger: section,
+                    toggleActions: 'play none none reverse'
+                },
+                ease: Power3.easeOut,
+                delay: 0.4,
+            });
+        });
+
+    })
+        
     return (
         <div class="first project-hack flex flex-d-col center">
             {/* Header Page */}
@@ -74,7 +102,7 @@ function ProjectHack() {
             </div>
 
             {/* Goals & Priorities */}
-            <section class="flex flex-d-col flex-center">
+            <section class="section-info flex flex-d-col flex-center">
                 <h3>Goals & Priorities</h3>
 
                 <div class="box1 flex flex-d-row space-between">
@@ -114,7 +142,7 @@ function ProjectHack() {
             </section>
 
             {/* Obstacles & Solutions */}
-            <section>
+            <section class="section-info ">
                 <h3>Obstacles & Solutions</h3>
 
                 <div class="solution">
@@ -177,7 +205,7 @@ function ProjectHack() {
             </section>
 
             {/* Gallery */}
-            <section>
+            <section class="section-info ">
                 <div class="gallery-row">
                     <h1>Workspace</h1>
                     <div class="gallery-picture-row flex flex-d-row space-between">
@@ -203,7 +231,7 @@ function ProjectHack() {
 
             {/* Reflection */}
             <div class="full-bleed dark flex center">
-                <div class="dark-section-wrapper">
+                <div class="section-info dark-section-wrapper">
                     <h3>Reflection</h3>
                     <div class="dark-text-wrapper">
                         <h1>

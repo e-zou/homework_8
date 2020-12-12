@@ -18,21 +18,26 @@ gsap.registerPlugin(ScrollTrigger)
 
 // KST Project Page
 function ProjectKST() {
+
     // Animations
     useEffect(()=> {
+        var sections = document.querySelectorAll(".section-info");
+
         // Project Images
-        gsap.from(".section-info", {
-            x: -100,
-            opacity: 0,
-            duration: 3,
-            scrollTrigger: {
-                trigger: ".section-info",
-                once: false,
-                markers: true
-            },
-            ease: Power3.easeOut,
-            delay: 0.4,
+        sections.forEach((section, index) => {
+            gsap.from(section, {
+                x: -100,
+                opacity: 0,
+                duration: 3,
+                scrollTrigger: {
+                    trigger: section,
+                    toggleActions: 'play none none reverse'
+                },
+                ease: Power3.easeOut,
+                delay: 0.4,
+            });
         });
+
     })
 
     return (
@@ -83,11 +88,11 @@ function ProjectKST() {
                 </div>
             </div>
             {/* Research */}
-            <section>
+            <section class="section-info">
                 <h3>
                     Research
                 </h3>
-                <div class="section-info flex flex-row space-between">
+                <div class="flex flex-row space-between">
                     <div class="section-img-wrapper">
                         <img class="section-img" src={p1} alt="kst promotional dance"></img>
                     </div>
@@ -116,7 +121,7 @@ function ProjectKST() {
                 </div>
             </section>
             {/* User Research */}
-            <div class="full-bleed">
+            <div class="section-info full-bleed">
                 <div class="user-research flex flex-d-row">
                     <img class="section-img" src={p3} alt="affinity diagram"></img>
                     <div class="user-research-text ">
@@ -136,7 +141,7 @@ function ProjectKST() {
                 </div>
             </div>
             {/* Insights */}
-            <section>
+            <section class="section-info">
                 <h3>Insights</h3>
                 <div class="text-cards-wrapper flex flex-d-row flex-wrap space-between">
                     <div class="text-card">
@@ -190,7 +195,7 @@ function ProjectKST() {
             </section>
             {/* Reflection */}
             <div class="full-bleed dark flex center">
-                <div class="dark-section-wrapper">
+                <div class="section-info dark-section-wrapper">
                     <h3>Next Steps</h3>
                     <div class="dark-text-wrapper">
                         <h1>
